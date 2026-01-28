@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.streamlit/
+venv/
+.env
+
+# Excel outputs / inputs (keep only templates)
+*.xlsx
+
+# Allow templates explicitly if you later move them to folder
+!templates/*.xlsx
